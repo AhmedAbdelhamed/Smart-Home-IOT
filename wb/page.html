@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<title>IOT Monitor</title>
+<center>
+<head>
+
+<style>
+h2 {
+    background-color: lightblue;
+	
+    margin-bottom: 50px;
+    margin-right: 150px;
+    margin-left: 150px;
+	padding: 50px 30px 50px 80px;
+
+	
+    border: 2px solid blue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+th {
+	color: white;
+	background-color: blue;
+	padding-left: 100px;
+    padding-right: 100px;
+	
+	border: 1px solid black
+    font-family: Arial, Helvetica, sans-serif;
+}
+.off{
+	margin-right: 50px;
+}
+</style>
+</head>
+<body bgcolor="DodgerBlue">
+<h2><font color="black">IOT Monitor & Control</font></h2>
+<table>
+  <tr>
+    <th>LED1</th>
+    <th>LED2</th>
+	<th>LED3</th>
+</table>
+<!-------------------------- image 1 ------------------------------->
+<button onclick="document.getElementById('img1').src='pic_bulbon.gif'">ON</button>
+
+<img id="img1" src="pic_bulboff.gif" style="width:100px">
+
+<button class="off" onclick="document.getElementById('img1').src='pic_bulboff.gif'">OFF</button>
+
+<!-------------------------- image 2 ------------------------------->
+<button onclick="document.getElementById('img2').src='pic_bulbon.gif'">ON</button>
+
+<img id="img2" src="pic_bulboff.gif" style="width:100px">
+
+<button class="off" onclick="document.getElementById('img2').src='pic_bulboff.gif'">OFF</button>
+
+<!-------------------------- image 3 ------------------------------->
+<button onclick="document.getElementById('img3').src='pic_bulbon.gif'">ON</button>
+
+<img id="img3" src="pic_bulboff.gif" style="width:100px">
+
+<button onclick="document.getElementById('img3').src='pic_bulboff.gif'">OFF</button>
+
+</body>
+</center>
+</html>

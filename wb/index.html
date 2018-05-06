@@ -1,0 +1,42 @@
+<html>
+<title>Login Page</title>
+<head>
+<style>
+h1,h2,font {
+    font-family: Arial, Helvetica, sans-serif;
+}
+</style>
+</head>
+<body bgcolor="DodgerBlue">
+<center>
+<script>
+function validateForm() {
+    var x = document.forms["myForm"]["name"].value;
+    var y = document.forms["myForm"]["password"].value;
+    if (x == "medo" && y == "1234")
+    {
+       return true; 
+    } 
+    else
+    {
+       alert("Incorrect Name Or Password");
+       return false;
+    }
+}
+</script>
+<h1><font color="white">LOGIN PAGE</font></h1>
+<h2><font color="white">Enter your name and password to access second page!</font></h2>
+<form name="myForm" action="page.php" method="post" onsubmit="return validateForm()" ><br>
+<font color="white">Username:</font>
+<input type="text" name="name"><br><br>
+<font color="white">Password:</font>
+<input type="password" name="password"><br><br>
+<input type="submit" value="Submit">
+<button type="reset" value="Reset">Reset</button><br>
+</form>
+<img src="img.jpg" width="350px" height="200px">
+<h2><font color="white">IOT_Project</font></h3>
+</center>
+</body>
+</html>
+

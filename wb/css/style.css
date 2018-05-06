@@ -1,0 +1,103 @@
+body{
+
+	background-color:purple;
+}
+#image_led{
+
+	width:200px;
+	height:200px;
+	position:absolute;
+	top:190px;
+	left:40px;
+}
+#image_fan{
+
+	width:200px;
+	height:200px;
+	position:absolute;
+	top:190px;
+	left:260px;
+}
+#image_heater{
+
+	width:200px;
+	height:200px;
+	position:absolute;
+	top:190px;
+	left:480px;
+}
+#image_hot_cold{
+
+	width:125px;
+	height:200px;
+	position:absolute;
+	top:190px;
+	left:710px;
+}
+h1{
+
+	color:yellow;
+	position:absolute;
+	top:20px;
+}
+
+#info{
+
+	font-size:20px;
+	font-weight: bold;
+	color:white;
+	position:absolute;
+	top:400px;
+}
+
+#table{
+
+	color:white;
+	position:absolute;
+	top:90px;
+}
+
+/*  Code below for login page */
+#login_form{
+
+	color:white;
+	position:absolute;
+	top:90px;
+}
+
+#login_img{
+
+	width:200px;
+	height:200px;
+	position:absolute;
+	top:230px;
+	left:10px;
+}
+
+#login_info{
+
+	font-size:20px;
+	font-weight: bold;
+	color:white;
+	position:absolute;
+	top:450px;
+}
+
+#login_error_msg{
+
+	font-size:20px;
+	color: white;
+	font-weight: bold;
+	position:fixed;
+	top:125px;
+	left:200px;
+}
+
+
+
+
+
+
+
+
+
